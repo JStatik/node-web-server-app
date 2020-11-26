@@ -1,0 +1,16 @@
+{
+  "name": "06-webserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app -e js,hbs,html,css"
+  },
+  "author": "Javier Carreño",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1"
+  }
+}
